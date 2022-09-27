@@ -1,0 +1,22 @@
+2022-08-24 14:09:19.6318 | DEBUG | Start of executing REST API call (call id: 44595dc8-dddb-49b1-994c-ec7a67ae595e)
+	url: http://MP2.preview.mediahuis.be/restapi/api/sync/lists/2855/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 4CAA2E4BBBD24EFBA63716656BD1B529389A11F4B7B048B5A777607992FE2293
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-24 14:09:20.4636 | DEBUG | REST API response (call id: 44595dc8-dddb-49b1-994c-ec7a67ae595e)
+	status code: OK
+	status description: OK
+	response: {"result":[{"ID":2327772,"GUID":"04d80a5b-403c-4844-b87f-070ba026ce2b","MAIL":"jimmy.guarraci@mediahuis.be","NAME":"Guarraci","OPTOUT":null,"TESTUSER":1,"ONLY_TEXT":0,"PERSOON_ID":"5816772658","ACCOUNTID":68371051,"GESLACHT":"MALE","NAAM1":"Guarraci","VOORNAAM1":"Jimmy","STRAAT1":"Oude Molenweg","HUISNR":"9","BUSNR":"","POSTCODE1":"3665","WOONPLAATS1":"As","LAND":"BE","TELEFOONNR":"","FAX":"","GSM":"","LAATSTE_LEESGEDRAG":null,"ACTIVE":"ACTIVE","ABOSUBSECTIONS":"","ABOTYPE":"","STANDBY_TXTSEARCH":null,"ORDERID":"","CITYID":715,"STREETID":47765,"TELEPHONE_WORK":"","PASSWORD":null,"CREATED_DT":"2018-02-19T15:18:03","MODIFIED_DT":"2021-09-27T16:44:15","BIRTHDAY":"1985-12-26T00:00:00","NICKNAME":"","REGISTRATION_CAMPAIGN_CODE":null,"SOURCE_CAMPAIGN":"CAMP_DS_CIAM_2_0_MAIN_REGISTRATION","TREFWOORDEN":"","BOUNCECNT":null,"BOUNCEDT":null,"WOP_EMAIL":"false;IMPLICIET;CIAMCREATE","ABOTYPE_ACTIVE":"","REASONINACTIVE":"","TYPEREF":"F","REGIO_HEADPOSTALCODE":"3665","REGIO_HEADCITY":"As","REGIO_POSTALCODE":"3665","REGIO_CITY":null,"HOOFDGEMEENTE":"As","POSTCODE_HOOFDGEMEENTE":"3665","PRIO_MIDDAG":null,"PRIO_BREAKING_NEWS":null,"PRIO_OCHTEND":null,"PRIO_AVOND":null,"OPTOUT_DT":null,"PRIO_DSAVOND":null,"PRIO_KK":null,"PRIO_WEBSHOP":null,"PRIO_COMM_ACTIE":null,"PRIO_COMM_ABO":null,"BOUNCE_CLEAN_TIMES":null,"BOUNCE_CLEAN_DT":null,"BOUNCE_CLEAN_CNT":null,"IDENTITYHASH":"b096477cd631b978865255b3d868d32d","PRIO_PARTNER":null,"EMAILHASH":"750da1b34e46a23b6cf16a38ad8cb069","MAILCLEAN":"jimmyguarraci@mediahuisbe","LONGGUID":"-249164425247284409","PRIO_BIZ":null,"PRIO_EDITORSPICK":null,"PRIO_LIFESTYLE":null,"PRIO_MIJNGELD":null,"PRIO_MOBILIA":null,"PRIO_WEEKLY":null,"LAST_MAIL":null,"TEMP_SUBSCR":"","TEMP_SUBSCR_ENDDATE":null,"LAST_VIEW_CLICK":null,"ABOTYPE_SHORT":""}],"total":1,"_links":[]}
+2022-08-24 14:09:20.4666 | DEBUG | End of executing REST API call (call id: 44595dc8-dddb-49b1-994c-ec7a67ae595e)
+2022-08-24 14:09:59.9662 | DEBUG | Start of executing REST API call (call id: 3112dec7-2839-4dca-9213-33fbb3bd3205)
+	url: http://MP2.preview.mediahuis.be/restapi/api/async/campaigns/153042/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: 4CAA2E4BBBD24EFBA63716656BD1B529389A11F4B7B048B5A777607992FE2293
+	content: {"ActionList":"12604", "ActionListRecord": {  "ACTIONCODE": "RTEMAIL1PR-DS", "var1":"DIGI"}, "Gate":"RTEMAIL1PR-DS", "User":"2327772", "UserListId":"2855"}
+	webmethod: POST
+2022-08-24 14:10:05.1736 | DEBUG | REST API response (call id: 3112dec7-2839-4dca-9213-33fbb3bd3205)
+	status code: OK
+	status description: OK
+	response: true
+2022-08-24 14:10:09.2981 | DEBUG | End of executing REST API call (call id: 3112dec7-2839-4dca-9213-33fbb3bd3205)

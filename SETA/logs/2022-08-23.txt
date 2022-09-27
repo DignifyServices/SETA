@@ -1,0 +1,1638 @@
+2022-08-23 14:56:08.5897 SETA.SetaService log entry: Trace
+2022-08-23 14:56:08.6078 SETA.SetaService log entry: Debug
+2022-08-23 14:56:08.6078 SETA.SetaService log entry: Info
+2022-08-23 14:56:08.6078 SETA.SetaService log entry: Warn
+2022-08-23 14:56:08.6078 SETA.SetaService log entry: Error
+2022-08-23 14:56:08.6078 SETA.SetaService log entry: Fatal
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Trace
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Debug
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Info
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Warn
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Error
+2022-08-23 14:57:26.4061 SETA.SetaService log entry: Fatal
+2022-08-23 15:03:30.1454 SETA.Generic.Functions The remote server returned an error: (401) Unauthorized.
+2022-08-23 15:03:30.1549 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 15:13:39.9848 SETA.Generic.Functions The remote server returned an error: (401) Unauthorized.
+2022-08-23 15:13:39.9848 SETA.Generic.Functions Debug parameters ------- 
+url: {0}
+restApiUser: {1}
+restApiKey: {2}
+
+2022-08-23 15:13:39.9848 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 15:14:59.7158 SETA.Generic.Functions The remote server returned an error: (401) Unauthorized.
+2022-08-23 15:14:59.7158 SETA.Generic.Functions Debug parameters ------- 
+url: http://MP2.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+restApiUser: REST_API_SETA
+restApiKey: CF3F5575B56146D6891C383B72936D885D441E7815F940CC923CA8FB9482A690
+
+2022-08-23 15:14:59.7158 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 15:16:36.8035 SETA.Generic.Functions The remote server returned an error: (401) Unauthorized.
+2022-08-23 15:16:36.8035 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP2.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: CF3F5575B56146D6891C383B72936D885D441E7815F940CC923CA8FB9482A690
+
+2022-08-23 15:16:36.8035 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 15:18:52.1338 SETA.Generic.Functions The remote server returned an error: (401) Unauthorized.
+2022-08-23 15:18:52.1338 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP2.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: CF3F5575B56146D6891C383B72936D885D441E7815F940CC923CA8FB9482A690
+
+2022-08-23 15:18:52.1338 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 15:33:48.1997 SETA.SetaService Mail address was not found
+	userlistId: 10303
+	mail: jimdfsfdsfmy.guarraci@mediahuis.be
+2022-08-23 15:33:48.2309 SETA.SetaService Error while converting REST API profileSearch response object
+2022-08-23 15:33:48.2309 SETA.SetaService Sequence contains no elements
+2022-08-23 15:33:48.2309 SETA.SetaService Debug parameters ------- 
+	userlistId: 10303
+	mail: jimdfsfdsfmy.guarraci@mediahuis.be
+2022-08-23 15:33:48.2340 SETA.SetaService    at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at SETA.SetaService.GetUserIdFromMailAddress(Int32 userlistId, String mail)
+2022-08-23 16:03:46.7006 SETA.SetaService Multiple user records have been found according to parameters
+	userlistId: 10303
+	mail: jimmy.guarraci@mediahuis.be
+	Results 
+	608320: 608320	Guarraci: 608320
+	10: 10	name: 10
+2022-08-23 16:05:35.5970 SETA.SetaService Multiple user records have been found according to parameters
+	userlistId: 10303
+	mail: jimmy.guarraci@mediahuis.be
+	Resultset
+		Id: 608320		name: 608320
+		Id: 10		name: 10
+2022-08-23 16:07:10.7361 SETA.SetaService Multiple user records have been found according to parameters
+	userlistId: 10303
+	mail: jimmy.guarraci@mediahuis.be
+	Resultset
+		Id: 608320		name: 608320
+		Id: 		name: 
+2022-08-23 16:07:22.4287 SETA.SetaService Multiple user records have been found according to parameters
+	userlistId: 10303
+	mail: jimmy.guarraci@mediahuis.be
+	Resultset
+		Id: 608320		name: Guarraci
+		Id: 		name: 
+2022-08-23 16:10:31.1233 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:10:31.1233 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:10:31.1233 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:10:31.1233 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 16:11:44.7286 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:11:44.7286 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:11:44.7286 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:11:44.7286 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 16:14:57.0490 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:14:57.0490 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:14:57.0490 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:14:57.0490 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 16:15:19.8563 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:15:19.8769 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:15:19.8769 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:15:19.8769 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 142
+2022-08-23 16:17:17.4514 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:17:17.4514 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:17:17.4514 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:17:17.4514 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 142
+2022-08-23 16:17:20.9438 SETA.SetaService Unable to retrieve restApiKey from web.config value: restApiKeydf_MP1_test
+2022-08-23 16:17:20.9438 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:17:20.9438 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:17:20.9438 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:17:20.9508 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 16:19:31.8896 SETA.SetaService Unable to retrieve restApiKey from web.config value: restApiKeydf_MP1_test
+2022-08-23 16:19:31.8896 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 16:19:31.8896 SETA.Generic.Functions String reference not set to an instance of a String.
+Parameter name: s
+2022-08-23 16:19:31.8896 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: 
+2022-08-23 16:19:31.8896 SETA.Generic.Functions    at System.Text.Encoding.GetBytes(String s)
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 16:19:34.7062 SETA.SetaService Unable to retrieve restApiKey from web.config value: restApiKeydf_MP1_test
+2022-08-23 16:34:31.7953 SETA.SetaService Unable to retrieve restApiKey from web.config value: restApiKeydf_MP1_test
+2022-08-23 16:34:41.4735 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 16:35:19.5353 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 16:35:44.7234 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 16:38:10.0713 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:08:03.0229 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object. Provided json value:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:13:00.4432 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 17:13:00.4432 SETA.Generic.Functions The request was aborted: The operation has timed out.
+2022-08-23 17:13:00.4432 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+2022-08-23 17:13:00.4432 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 17:13:15.4239 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:14:28.8137 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 17:14:28.8137 SETA.Generic.Functions The request was aborted: The operation has timed out.
+2022-08-23 17:14:28.8137 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+2022-08-23 17:14:28.8137 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod)
+2022-08-23 17:14:49.1767 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:15:53.6552 SETA.Generic.Functions Error while executing REST API call
+2022-08-23 17:15:53.6552 SETA.Generic.Functions The request was aborted: The operation has timed out.
+2022-08-23 17:15:53.6552 SETA.Generic.Functions Debug parameters ------- 
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+2022-08-23 17:15:53.6552 SETA.Generic.Functions    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 185
+2022-08-23 17:15:58.1288 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:16:25.0796 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{(
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:17:04.9112 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:17:10.7569 SETA.Generic.Functions Invalid property identifier character: (. Path '[0]', line 2, position 3.
+2022-08-23 17:17:10.7569 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{(
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:18:30.4308 SETA.Generic.Functions Given brand (HBVL) coudl not be found for determining the correct MPx environment. Reverting back to the default MP1 environment for further use
+2022-08-23 17:18:34.4900 SETA.Generic.Functions Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:18:34.4900 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:18:50.3699 SETA.Generic.Functions Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:18:50.3699 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:45:04.0317 SETA.Generic.Functions Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:45:04.0317 SETA.Generic.Functions Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:45:20.9575 Debug SETA.Generic.Functions - TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 17:45:22.6456 Fatal SETA.Generic.Functions - Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:45:22.6456 Fatal SETA.Generic.Functions - Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+49.5060 - DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+50.9127 - FATAL | Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+50.9127 - FATAL | Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+20.1247 - DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+48.2698 - FATAL | Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+48.2698 - FATAL | Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+31.7089 - DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+32.5118 - FATAL | Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+32.5118 - FATAL | Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:52:51.7279|DEBUG|SETA.Generic.Functions|TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 17:52:52.4007|FATAL|SETA.Generic.Functions|Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:52:52.4007|FATAL|SETA.Generic.Functions|Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:53:25.9870|DEBUG|SETA.Generic.Functions|TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 17:53:27.1876|FATAL|SETA.Generic.Functions|Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:53:27.1876|FATAL|SETA.Generic.Functions|Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:53:55.7507|DEBUG|SETA.Generic.Functions|TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 17:53:58.6781|FATAL|SETA.Generic.Functions|Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:53:58.6781|FATAL|SETA.Generic.Functions|Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 17:54:50.9945|DEBUG|SETA.Generic.Functions|TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 17:54:51.6560|FATAL|SETA.Generic.Functions|Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 17:54:51.6560|FATAL|SETA.Generic.Functions|Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:03:38.6966 DEBUG SETA.Generic.Functions - TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 18:03:38.7046 FATAL SETA.Generic.Functions - Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 18:03:38.7046 FATAL SETA.Generic.Functions - Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:08:13.2911 DEBUG SETA.Generic.Functions - Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:10:46.3098 DEBUG SETA.Generic.Functions - Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+DEBUG SETA.Generic.Functions - Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:11:48.4502 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:14:04.4777 | DEBUG           | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:15:29.9964 | INFO  | testinfo log
+2022-08-23 18:15:30.0193 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+36.73 | INFO  | testinfo log
+36.74 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+17.02 | INFO  | testinfo log
+17.02 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:17:25.0696 | INFO  | testinfo log
+2022-08-23 18:17:25.0957 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:18:10.2863 | INFO  | testinfo log
+2022-08-23 18:18:10.2863 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:18:19.8486 | INFO  | testinfo log
+2022-08-23 18:18:19.8606 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:18:20.5146 | DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+
+2022-08-23 18:18:20.5325 | FATAL | Invalid property identifier character: (. Path '[0].CONTENT.PERSON_LASTNAME', line 8, position 3.
+2022-08-23 18:18:20.5325 | FATAL | Invalid json object provided. Unable to parse to json object for column "ABOSHOP_DATA". Provided json object:
+	
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			("PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:20:10.1933 | INFO  | testinfo log
+2022-08-23 18:20:10.2043 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:20:11.1237 | DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 1
+2022-08-23 18:20:11.1237 | DEBUG | jsonParameter info - json object provided for column:
+	column name: ABOSHOP_DATA
+	value: 
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:20:11.1237 | INFO  | testinfo log
+2022-08-23 18:20:11.1237 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {"ActionList":"12605", "ActionListRecord": {  "ACTIONCODE": "VOUCHER_PURCHASE", "ABOSHOP_DATA": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]"}, "Gate":"ABOSHOP_VOUCHER_HBVL", "User":"608320", "UserListId":"10303"}
+	webmethod: POST
+2022-08-23 18:20:30.1482 | FATAL | Error while executing REST API call
+2022-08-23 18:20:30.1482 | FATAL | The request was aborted: The operation has timed out.
+2022-08-23 18:20:30.1542 | FATAL |    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 246
+2022-08-23 18:24:15.8949 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:24:16.7101 | DEBUG | TriggerCampaign REST API method called with the following parameters:
+	restApiUrl: http://MP1.test.mediahuis.be/restapi/api/
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	campaignId: 110484
+	userListId: 10303
+	userId: 608320
+	actionListId: 12605
+	actionCode: VOUCHER_PURCHASE
+	gate: ABOSHOP_VOUCHER_HBVL
+	columnParameters count: 0
+	jsonParameters count: 2
+2022-08-23 18:24:16.7101 | DEBUG | jsonParameter info - json object provided for column:
+	column name: ABOSHOP_DATA
+	value: 
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:24:16.7101 | DEBUG | jsonParameter info - json object provided for column:
+	column name: ABOSHOP_DATA2
+	value: 
+	[{
+		"ID": 1,
+		"PARAM": "ABOSHOP_DATA",
+		"CONTENT": {
+			"PERSON_FIRSTNAME": "Tim",
+			"PERSON_LASTNAME": "Van Hal",
+			"PERSON_MAIL": "jimmy.guarraci@mediahuis.be",
+			"PERSON_ACCOUNTNUMBER": null,
+			"ADDRESS_STREET": "Katwilgweg",
+			"ADDRESS_NUMBER": "2",
+			"ADDRESS_BOX": "",
+			"ADDRESS_ZIPCODE": "2050",
+			"ADDRESS_CITY": "Antwerpen",
+			"ADDRESS_COUNTRY": "BE",
+			"PRODUCT_READING_TYPE": "SLIM",
+			"PRODUCT_DESCRIPTION": "Digitale krant in de week + papieren krant op zaterdag",
+			"PRODUCT_PLUS_ARTICLES": false,
+			"PRODUCT_DIGITAL_PUBLICATIONS": false,
+			"PRODUCT_PAPER_WEEK": false,
+			"PRODUCT_PAPER_WEEKEND": false,
+			"PRODUCT_PAPER_COMPONENT": false,
+			"PRODUCT_UNIT_PRICE": 67.5,
+			"PRODUCT_DIGITAL_RIGHTS": false,
+			"PRODUCT_DISCOUNT": "-34% korting",
+			"PRODUCT_PRICE_DESCRIPTION": "<strong>€ 22,50</strong>/maand\n",
+			"ORDER_TYPE": "voucher",
+			"ORDER_CATEGORY": "voucherPurchase",
+			"ORDER_DURATION_NUMBER": 3,
+			"ORDER_DURATION_DATEPART": "m",
+			"ORDER_PAYMENT_TYPE": "bancontact",
+			"ORDER_PAYMENT_TYPE_EXTRA_INFO": "",
+			"ORDER_RECURRING_PAYMENT": false,
+			"ORDER_DELIVERY_TYPE": "Mail",
+			"ORDER_START_DATE": null,
+			"ORDER_DELIVERY_STORE": null,
+			"ORDER_DELIVERY_STORE_ADDRESS": null,
+			"ORDER_DELIVERY_STORE_COUNTRY": null,
+			"ORDER_FIXED_TERM": null,
+			"AGREEMENT_ID": null,
+			"VOUCHER_CODE": "2BA5-DD62-9F54"
+		}
+	}]
+2022-08-23 18:24:16.7101 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {"ActionList":"12605", "ActionListRecord": {  "ACTIONCODE": "VOUCHER_PURCHASE", "ABOSHOP_DATA": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]", "ABOSHOP_DATA2": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]"}, "Gate":"ABOSHOP_VOUCHER_HBVL", "User":"608320", "UserListId":"10303"}
+	webmethod: POST
+2022-08-23 18:24:35.7293 | FATAL | Error while executing REST API call
+2022-08-23 18:24:35.7293 | FATAL | The request was aborted: The operation has timed out.
+2022-08-23 18:24:35.7363 | FATAL |    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 245
+2022-08-23 18:31:46.1565 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:32:01.8980 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {"ActionList":"12605", "ActionListRecord": {  "ACTIONCODE": "VOUCHER_PURCHASE", "FLOW_URL":"1", "ALTERNATE_URL":"2", "ALLOWED_ARTICLES":"3", "UNSUBSCRIBE_URL":"4", "OFFER_NAME":"5", "VARIANT":"6", "ABOSHOP_DATA": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]", "ABOSHOP_DATA2": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]"}, "Gate":"ABOSHOP_VOUCHER_HBVL", "User":"608320", "UserListId":"10303"}
+	webmethod: POST
+2022-08-23 18:32:20.9238 | FATAL | Error while executing REST API call
+2022-08-23 18:32:20.9238 | FATAL | The request was aborted: The operation has timed out.
+2022-08-23 18:32:20.9238 | FATAL |    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 251
+2022-08-23 18:33:54.1671 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:33:54.9870 | DEBUG | Executing REST API call
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {"ActionList":"12605", "ActionListRecord": {  "ACTIONCODE": "VOUCHER_PURCHASE", "ABOSHOP_DATA": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]"}, "Gate":"ABOSHOP_VOUCHER_HBVL", "User":"608320", "UserListId":"10303"}
+	webmethod: POST
+2022-08-23 18:34:13.9889 | FATAL | Error while executing REST API call
+2022-08-23 18:34:13.9889 | FATAL | The request was aborted: The operation has timed out.
+2022-08-23 18:34:13.9889 | FATAL |    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 251
+2022-08-23 18:41:10.6372 | DEBUG | Start of executing REST API call (call id: ebb78c9d-f301-427e-b55f-396d6e164620)
+	url: http://MP1.test.mediahuis.be/restapi/api/sync/lists/10303/profiles/search
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {'fields':null, 'filter':{'mail':'jimmy.guarraci@mediahuis.be', 'op':'='}}
+	webmethod: POST
+2022-08-23 18:41:11.3854 | DEBUG | End of executing REST API call (call id: ebb78c9d-f301-427e-b55f-396d6e164620)
+2022-08-23 18:41:11.3986 | DEBUG | Start of executing REST API call (call id: 11a010ed-af40-4edf-bddc-cbe4a6c6bf62)
+	url: http://MP1.test.mediahuis.be/restapi/api/async/campaigns/110484/trigger
+	restApiUser: REST_API_SETA
+	restApiKey: B4C39ECE5C1640538E325E4544C92821918F2D784A3A4AD4A833F3A5BDCDEFCF
+	content: {"ActionList":"12605", "ActionListRecord": {  "ACTIONCODE": "VOUCHER_PURCHASE", "ABOSHOP_DATA": "
+	[{
+		\"ID\": 1,
+		\"PARAM\": \"ABOSHOP_DATA\",
+		\"CONTENT\": {
+			\"PERSON_FIRSTNAME\": \"Tim\",
+			\"PERSON_LASTNAME\": \"Van Hal\",
+			\"PERSON_MAIL\": \"jimmy.guarraci@mediahuis.be\",
+			\"PERSON_ACCOUNTNUMBER\": null,
+			\"ADDRESS_STREET\": \"Katwilgweg\",
+			\"ADDRESS_NUMBER\": \"2\",
+			\"ADDRESS_BOX\": \"\",
+			\"ADDRESS_ZIPCODE\": \"2050\",
+			\"ADDRESS_CITY\": \"Antwerpen\",
+			\"ADDRESS_COUNTRY\": \"BE\",
+			\"PRODUCT_READING_TYPE\": \"SLIM\",
+			\"PRODUCT_DESCRIPTION\": \"Digitale krant in de week + papieren krant op zaterdag\",
+			\"PRODUCT_PLUS_ARTICLES\": false,
+			\"PRODUCT_DIGITAL_PUBLICATIONS\": false,
+			\"PRODUCT_PAPER_WEEK\": false,
+			\"PRODUCT_PAPER_WEEKEND\": false,
+			\"PRODUCT_PAPER_COMPONENT\": false,
+			\"PRODUCT_UNIT_PRICE\": 67.5,
+			\"PRODUCT_DIGITAL_RIGHTS\": false,
+			\"PRODUCT_DISCOUNT\": \"-34% korting\",
+			\"PRODUCT_PRICE_DESCRIPTION\": \"<strong>€ 22,50</strong>/maand\n\",
+			\"ORDER_TYPE\": \"voucher\",
+			\"ORDER_CATEGORY\": \"voucherPurchase\",
+			\"ORDER_DURATION_NUMBER\": 3,
+			\"ORDER_DURATION_DATEPART\": \"m\",
+			\"ORDER_PAYMENT_TYPE\": \"bancontact\",
+			\"ORDER_PAYMENT_TYPE_EXTRA_INFO\": \"\",
+			\"ORDER_RECURRING_PAYMENT\": false,
+			\"ORDER_DELIVERY_TYPE\": \"Mail\",
+			\"ORDER_START_DATE\": null,
+			\"ORDER_DELIVERY_STORE\": null,
+			\"ORDER_DELIVERY_STORE_ADDRESS\": null,
+			\"ORDER_DELIVERY_STORE_COUNTRY\": null,
+			\"ORDER_FIXED_TERM\": null,
+			\"AGREEMENT_ID\": null,
+			\"VOUCHER_CODE\": \"2BA5-DD62-9F54\"
+		}
+	}]"}, "Gate":"ABOSHOP_VOUCHER_HBVL", "User":"608320", "UserListId":"10303"}
+	webmethod: POST
+2022-08-23 18:41:30.4161 | FATAL | Error while executing REST API call
+2022-08-23 18:41:30.4161 | FATAL | The request was aborted: The operation has timed out.
+2022-08-23 18:41:30.4231 | FATAL |    at System.Net.HttpWebRequest.GetResponse()
+   at SETA.Generic.Functions.ExecuteRestApiRequest(String url, String restApiUser, String restApiKey, String content, Webmethods webmethod) in D:\OneDrive - Customer Collective\DIGNIFY\Repos\SETA\SETA\Generic\Functions.cs:line 254
+2022-08-23 18:41:45.5910 | DEBUG | End of executing REST API call (call id: 11a010ed-af40-4edf-bddc-cbe4a6c6bf62)

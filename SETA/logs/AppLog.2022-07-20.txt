@@ -1,0 +1,17 @@
+2022-07-20 18:44:30.0940 SETA.SetaService log entry: Debug
+2022-07-20 18:44:30.0940 SETA.SetaService log entry: Info
+2022-07-20 18:44:30.0940 SETA.SetaService log entry: Warn
+2022-07-20 18:44:30.0940 SETA.SetaService log entry: Error
+2022-07-20 18:44:30.0940 SETA.SetaService log entry: Fatal
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Trace
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Debug
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Info
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Warn
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Error
+2022-07-20 18:47:56.9107 SETA.SetaService log entry: Fatal
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Trace
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Debug
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Info
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Warn
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Error
+2022-07-20 18:48:36.9016 SETA.SetaService log entry: Fatal
